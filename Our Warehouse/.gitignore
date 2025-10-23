@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Logs and databases
+*.log
+*.bak
+*.sql~
+
+# Ignore local credential files
+credentials.json
+*.env
+
+# Ignore exports
+*.csv
