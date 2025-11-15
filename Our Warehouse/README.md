@@ -8,6 +8,9 @@ Layout
 - Querys and KPIs.sql : Index file listing available queries.
 - *.csv : reference data files (do not commit large data exports)
 
+Migration helper
+- `full_migration.sql` — idempotent full migration script (creates DB, tables, loads CSVs, applies constraints). Run in SQL Server (adjust CSV paths if SQL Server cannot access repo-relative paths).
+
 How to use
 - Apply migrations: review files in `migrations/` and run using your migration tool or SQL client.
 - Run KPIs: open the file under `sql/kpis/` and execute in SSMS / Azure Data Studio.
