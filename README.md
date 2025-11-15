@@ -1,4 +1,4 @@
-# DEPI Final Project: School Analytics Data Warehouse
+# DEPI Final Project: Students Performance Data Warehouse
 
 ![Data Warehouse Banner](assets/channels4_profile.jpg)
 
